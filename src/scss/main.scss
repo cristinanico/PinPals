@@ -1,8 +1,73 @@
-@import 'core/variables';
+
 @import 'core/reset';
-@import 'components/code';
-@import 'components/links';
-@import 'layout/page';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'pages/index';
+
+
+.header {
+    background-color: #9AD390;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 15px;
+    gap: 150px;
+    font-family: "Single Day";
+
+    &__img {
+        width: 200px;
+        padding-left: 25px;
+    }
+
+    &__h1{
+        color: #A63383;
+        font-size: 60px;
+    }
+
+    &__p{
+        color: yellow;
+        font-size: 20px;
+    }
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    
+    &__a{
+        color: white;
+        padding: 15px 25px;
+        background-color:#A63383;
+        border-radius: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+.section__table{
+    background-color: #9AD390;
+    margin: 30px;
+    font-family: "Single Day";
+    font-size: 25px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+
+  }
+
+    .th, .td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .score {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Single Day";
+    font-size: 30px;
+    gap: 30px;
+
+    &__h2{
+        color: #A63383;
+    }
+  }
