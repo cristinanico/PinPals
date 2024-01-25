@@ -15,7 +15,7 @@ function t1() {
     let t1 = 7;
     if (t1 > -1 && t1 < 11) {
       if (t1 === 10) {
-        console.log("pleno");
+        console.log("plenot1");
         console.log("esconder boton t2 con hidden");
         return t1;
       }else {
@@ -24,7 +24,7 @@ function t1() {
     }
   }
 }
-  
+
 temp = t1();
 console.log(temp);
 total1 += temp;
@@ -43,7 +43,9 @@ function t2(t1) {
       }
     }
   }
-  total1 = temp + t2(temp);
+
+  let temp2 =t2(temp);
+  total1 = temp + temp2;
   console.log(total1);
 
 
@@ -62,14 +64,16 @@ function t2(t1) {
     }
   }
 }
-  
-temp = t3();
-console.log(temp);
-if (t1 === 10 || (t1 + t2) === 10 )
-   { total2 += (temp * 2);}
+
+
+let temp3=t3();
+
+if (temp === 10 || (temp + temp2) === 10 )
+   { total2 = temp3 * 2;}
 else{
-    total2 = temp;
+    total2 = temp3;
 }
+console.log(total2);
 function t4(t3) {
     let t4 = 3;
     if (t3 !== 10) {
@@ -85,9 +89,14 @@ function t4(t3) {
     }
   }
 
-  console.log(total2);
-  if (t1 === 10 )
-   { total2 = (temp + (t4 * 2));}
+  let temp4 =  t4(temp3);
+  
+  if (temp === 10 )
+   { total2 = temp3 + (temp4 * 2);}
 else{
-    total2 = temp + t4;
-}
+    total2 += temp4;
+};
+
+console.log(total2);
+
+let totalpuntos=total1 + total2;
