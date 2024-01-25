@@ -1,44 +1,86 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background-color: #9AD390; }
 
-.code {
-  font-size: 16px;
-  background: #d8d8d8;
-  padding: 0 5px;
-  border-radius: 5px; }
+a {
+  text-decoration: none; }
 
-.link__adalab:hover {
-  background-color: #099d8d;
-  color: #fff; }
-
-.link__github:hover {
-  background-color: #CCC;
-  color: #000; }
-
-body {
-  padding: 2rem;
-  height: 100vh;
-  background-image: url("../images/bg-adalab.png");
-  background-color: #f3f4f5;
-  font-family: "Roboto", sans-serif; }
-
-.page__header {
+.article {
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem; }
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px; }
+  .article__h1 {
+    color: #A63383;
+    font-family: "Single Day";
+    text-transform: uppercase;
+    padding: 30px;
+    font-size: 50px; }
+  .article__ul {
+    list-style: none; }
+  .article__li {
+    line-height: 35px;
+    font-family: "Single Day";
+    font-size: 20px; }
+    .article__li--h4 {
+      color: #A63383;
+      font-weight: bold; }
 
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: #999; }
+.header {
+  background-color: #9AD390;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 15px;
+  gap: 150px;
+  font-family: "Single Day"; }
+  .header__img {
+    width: 200px;
+    padding-left: 25px; }
+  .header__h1 {
+    color: #A63383;
+    font-size: 60px; }
+  .header__p {
+    color: yellow;
+    font-size: 20px; }
 
-.main__list {
-  padding-left: 2rem;
-  padding-bottom: 20px; }
+.hero {
+  display: flex;
+  justify-content: center; }
+  .hero__a {
+    color: white;
+    padding: 15px 25px;
+    background-color: #A63383;
+    border-radius: 40px;
+    font-family: Arial, Helvetica, sans-serif; }
+
+.section__table {
+  background-color: #9AD390;
+  margin: 30px;
+  font-family: "Single Day";
+  font-size: 25px; }
+
+.table {
+  border-collapse: collapse;
+  width: 100%; }
+
+.th, .td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center; }
+
+.score {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Single Day";
+  font-size: 30px;
+  gap: 30px; }
+  .score__h2 {
+    color: #A63383; }
 
 /*# sourceMappingURL=main.css.map */

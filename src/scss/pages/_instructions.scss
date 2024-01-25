@@ -1,0 +1,32 @@
+.article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    &__h1{
+        color: #A63383;
+        font-family: "Single Day";
+        text-transform: uppercase;
+        padding: 30px;
+        font-size: 50px;
+    }
+
+    &__ul{
+        list-style: none;
+    }
+
+    &__li{
+        line-height: 35px;
+        font-family: "Single Day";
+        font-size: 20px;
+
+        &--h4{
+            color: #A63383;
+            font-weight: bold;
+        }
+    }
+    
+}
