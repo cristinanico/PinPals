@@ -15,7 +15,7 @@ function t1() {
     let t1 = 7;
     if (t1 > -1 && t1 < 11) {
       if (t1 === 10) {
-        console.log("plenot1");
+        console.log("pleno 1");
         console.log("esconder boton t2 con hidden");
         return t1;
       }else {
@@ -43,9 +43,10 @@ function t2(t1) {
       }
     }
   }
-
+  console.log(temp2);
   let temp2 =t2(temp);
   total1 = temp + temp2;
+  console.log("total ronda 1");
   console.log(total1);
 
 
@@ -65,9 +66,9 @@ function t2(t1) {
   }
 }
 
-
+console.log("tirada3");
 let temp3=t3();
-
+console.log(temp3);
 if (temp === 10 || (temp + temp2) === 10 )
    { total2 = temp3 * 2;}
 else{
@@ -88,15 +89,17 @@ function t4(t3) {
       }
     }
   }
-
+  console.log("tirada 4");
   let temp4 =  t4(temp3);
-  
+  console.log(temp4);
   if (temp === 10 )
    { total2 = temp3 + (temp4 * 2);}
 else{
     total2 += temp4;
 };
-
+console.log("puntuacion ronda2");
 console.log(total2);
 
 let totalpuntos=total1 + total2;
+console.log("puntuacion total");
+console.log(totalpuntos);
