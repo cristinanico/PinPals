@@ -16,6 +16,12 @@ npm install
 npm start
 ~~~
 
+## 🎳 | Start to play
+#### Basic rules
+- 10 rounds of 2 rolls maximum per round are bowled.
+- At the beginning of each round the 10 pins are placed.
+- Each pin thrown adds up to one point.
+
 > **Note** In this project, we can find the following files and folders:
 >- The folder 📂 `src/` is the files of this web page: HTML, SCSS, JavaScript and images.
 >- The folders 📚 `public/` and `docs/`, are generated automatically when we start the project. GULP reads the files found in the src/ folder, processes them and then generates them inside `public/` and `docs/`.
